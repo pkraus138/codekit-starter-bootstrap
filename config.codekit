@@ -3488,7 +3488,7 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "\/assets",
-	"displayValue": "static-template",
+	"displayValue": "codekit-starter-bootstrap",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "compass_darkGray"
 	},
