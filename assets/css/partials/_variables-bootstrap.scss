@@ -1,0 +1,22 @@
+// OVERRIDES FOR BOOTSTRAP VARIABLES
+
+$font-family-sans-serif:  "Open Sans", Helvetica, Arial, sans-serif;
+
+$font-size-base:          13px !default;
+
+$font-size-h1:            2.46em; //~36px
+$font-size-h2:            1.6rem; //~30px
+$font-size-h3:            1.4rem; //~24px
+$font-size-h4:            1.15em; //~18px
+$font-size-h5:            1em;
+$font-size-h6:            0.85em; //~11px
+
+$brand-primary:           $color-primary;
+$gray-dark:               $color-darker;
+$panel-bg:                $color-light;
+
+$border-width:            0.07692307692em; //~1px
+$card-border-width:       $border-width; //~1px
+$card-border-color:       $color-dark;
+
+$input-border:            $color-dark;

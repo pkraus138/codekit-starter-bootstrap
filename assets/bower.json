@@ -1,0 +1,22 @@
+{
+  "name": "client-reporting-mockups",
+  "homepage": "https://github.com/RedVector/client-reporting-mockups",
+  "authors": [
+    "Peter Kraus <fuudstamps@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "datatables.net-bs": "^1.10.12",
+    "datatables.net": "^1.10.12",
+    "datatables.net-dt": "^1.10.12"
+  }
+}

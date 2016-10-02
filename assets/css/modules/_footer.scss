@@ -1,0 +1,19 @@
+.footer,
+.footer-default,
+.footer-inverse {
+  border-top: 1px solid transparent;
+  margin-top: $navbar-margin-bottom;
+  padding-top:    $navbar-padding-vertical;
+  padding-bottom: $navbar-padding-vertical;
+}
+
+.footer-default {
+  background-color: $navbar-default-bg;
+  border-color: $navbar-default-border;
+}
+
+.footer-inverse {
+  background-color: $navbar-inverse-bg;
+  border-color: $navbar-inverse-border;
+  color: $navbar-inverse-brand-color;
+}

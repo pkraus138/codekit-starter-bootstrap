@@ -1,0 +1,83 @@
+// display helpers
+.inline { display: inline !important; }
+
+// spacing helpers
+.spaced { margin: $padding-large-vertical $padding-large-horizontal !important;}
+.mr { margin-right: $padding-large-horizontal !important; }
+.ml { margin-left: $padding-large-horizontal !important; }
+.mt { margin-top: $padding-large-vertical !important; }
+.mb { margin-bottom: $padding-large-vertical !important; }
+.mrxs { margin-right: $padding-large-horizontal/2 !important; }
+.mlxs { margin-left: $padding-large-horizontal/2 !important; }
+.mtxs { margin-top: $padding-large-vertical/2 !important; }
+.mbxs { margin-bottom: $padding-large-vertical/2 !important; }
+
+.padded { margin: $padding-large-vertical $padding-large-horizontal !important;}
+.pr { padding-right: $padding-large-horizontal !important; }
+.pl { padding-left: $padding-large-horizontal !important; }
+.pt { padding-top: $padding-large-vertical !important; }
+.pb { padding-bottom: $padding-large-vertical !important; }
+.ph { padding-left: $padding-large-horizontal !important; padding-right: $padding-large-horizontal !important;  }
+.phxl { padding-left: $padding-large-horizontal * 1.6 !important; padding-right: $padding-large-horizontal * 1.6 !important;  }
+
+.v-space {
+  margin-top: $padding-large-vertical !important;
+  margin-bottom: $padding-large-vertical !important;  }
+
+.h-space {
+  margin-left: $padding-large-horizontal !important;
+  margin-right: $padding-large-horizontal !important; }
+
+.no-space { padding: 0 !important; margin: 0 !important; }
+
+// text helpers
+.text-strong { font-weight: bold !important; }
+.text-italic { font-style: italic !important; }
+.nowrap { white-space: nowrap !important; }
+
+// widths
+.width-10  { width: 10% !important; }
+.width-20  { width: 20% !important; }
+.width-25  { width: 25% !important; }
+.width-30  { width: 30% !important; }
+.width-40  { width: 40% !important; }
+.width-50  { width: 50% !important; }
+.width-60  { width: 60% !important; }
+.width-70  { width: 70% !important; }
+.width-75  { width: 75% !important; }
+.width-80  { width: 80% !important; }
+.width-90  { width: 90% !important; }
+.width-100 { width: 100% !important; }
+
+// display types
+.inline { display: inline !important; }
+.block { display: block !important; }
+.inline-block { display: inline-block !important; }
+
+.hidden {
+  &.inline { display: none !important; }
+  &.block { display: none !important; }
+  &.inline-block { display: none !important; }
+}
+.disabled, label.disabled, input.disabled, input[disabled='disabled'] {
+  pointer-events: auto;
+  &:hover, + label, + .checkbox:hover { cursor: not-allowed !important; }
+}
+
+a[data-toggle="tooltip"],
+a[data-bootstrap="tooltip"],
+a[data-toggle="collapse"] {
+  &.disabled { pointer-events: auto; }
+  &:hover { cursor: pointer; }
+}
+
+.color-dark     { color: $color-med-dark; }
+.color-med-dark { color: $color-med-dark; }
+.color-other     { color: $color-mocha-brown !important; }
+
+.align-right { text-align: right !important; }
+
+.pos-abs { position: absolute !important; }
+.pos-rel { position: relative !important; }
+
+.text-bigger { font-size: 1.077em; }
